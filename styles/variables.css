@@ -1,4 +1,9 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --main-text-color: #F1B2CE;
+  --contrast-text-color: #000028;
+  --logo-color: #DB00FF;
+  --logo-shadow-color: #FF0070;
+  --ruble-padding: clamp(0.625rem, 0.179rem + 2.23vw, 1.25rem);
+}
