@@ -1,12 +1,6 @@
 :root {
-  --accent-color: #FF0070;
-  --bg-color: #000028;
-  --main-text-color: #F1B2CE;
-  --contrast-text-color: #000028;
-  --logo-color: #DB00FF;
-  --logo-shadow-color: #FF0070;
-  --ruble-padding: clamp(0.625rem, 0.179rem + 2.23vw, 1.25rem);
-  --margin-bottom-header: clamp(2.5rem, 1.607rem + 4.46vw, 3.75rem);
-  --margin-bottom-gallery: clamp(2.5rem, 1.607rem + 4.46vw, 3.75rem);
+  --rubber-padding: clamp(0.625rem, 0.179rem + 2.23vw, 1.25rem);
+  --margin-bottom-header: clamp(2.5rem, 1.307rem + 5.09vw, 3.75rem);
+  --margin-top-footer: var(--margin-bottom-header);
   --margin-between-block: clamp(3.125rem, 1.336rem + 7.63vw, 5rem);
 }
