@@ -120,3 +120,51 @@
 .title-decor {
   background-color: var(--accent-color);
 }
+
+.galery {
+  padding: 0 var(--ruble-padding);
+}
+
+.galery__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: clamp(12rem, -0.75rem + 26.56vw, 16.25rem) clamp(14.375rem, -1.563rem + 33.2vw, 19.688rem) clamp(19.875rem, -0.75rem + 42.97vw, 26.75rem);
+  gap: 20px;
+}
+
+.galery__image-sunset {
+  grid-column: 1 / 3;
+  width: 100%;
+  height: 100%;
+}
+
+.galery__image-ice-cream {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.galery__image-books {
+  grid-column: 2;
+  grid-row: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.galery__image-tape{
+  grid-row: 2 / 4;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.galery__image-street{
+  grid-column: 2 / 4;
+  grid-row: 3;
+  width: 100%;
+  height: 100%;
+}
