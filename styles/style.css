@@ -141,6 +141,10 @@
   padding-inline: var(--rubber-padding);
 }
 
+.section-why > * {
+  min-width: 0px;
+}
+
 .section-why__title {
   grid-column: 1;
 }
@@ -157,6 +161,10 @@
   padding-inline: var(--rubber-padding);
 }
 
+.section-what > * {
+  min-width: 0px;
+}
+
 .section-what__title {
   grid-column: 1 / -1;
   max-width: 31%;
@@ -169,6 +177,10 @@
   gap: 20px;
   margin-block-end: var(--margin-between-block);
   padding-inline: var(--rubber-padding);
+}
+
+.section-how > * {
+  min-width: 0px;
 }
 
 .section-how__title {
@@ -184,6 +196,7 @@
 
 .section-how__article {
   grid-column: 2 / 3;
+  width: 100%;
 }
 
 .section-title {
