@@ -89,7 +89,7 @@
 .header__theme-menu-button {
   border: none;
   padding: 1px 13px;
-  color: var(--accent-color);
+  color: var(--section-title-color);
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
@@ -104,7 +104,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--section-title-color);
 }
 
 .header__theme-menu-button_active {
@@ -134,7 +134,7 @@
 
 .section-why {
   display: grid;
-  grid-template-columns: 30.7vw minmax(46vw, 1fr);
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: repeat(2, auto);
   gap: 20px;
   margin-block-end: var(--margin-between-block);
@@ -151,8 +151,7 @@
 
 .section-what {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30.7vw, 1fr));
-  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   margin-block-end: var(--margin-between-block);
   padding-inline: var(--rubber-padding);
@@ -160,16 +159,11 @@
 
 .section-what__title {
   grid-column: 1 / -1;
-  padding-right: 65vw;
 }
 
 .section-how {
   display: grid;
-  grid-template-columns: clamp(14.75rem, -0.04rem + 30.81vw, 19.68rem) clamp(
-      28.25rem,
-      -4.93rem + 69.13vw,
-      39.31rem
-    );
+  grid-template-columns: 1fr 2fr;
   grid-template-rows: max-content repeat(5, max-content);
   gap: 20px;
   margin-block-end: var(--margin-between-block);
@@ -318,7 +312,7 @@
   }
 
   .section-what {
-    grid-template-columns: 94.8vw;
+    grid-template-columns: 1fr
   }
 
   .section-what__title {

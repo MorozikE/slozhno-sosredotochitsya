@@ -8,7 +8,7 @@
   --hover-color: rgba(255, 0, 112, 0.4);
   --link-focus-color: #f1b2ce;
   --section-title-color: #ff0070;
-  --background-image-url: url(/images/cover-image-dark.png);
+  --background-image-url: url(../images/cover-image-dark.png);
   --is-decor-visible: block;
   --rubber-padding: clamp(0.625rem, 0.179rem + 2.23vw, 1.25rem);
   --margin-bottom-header: clamp(2.5rem, 1.307rem + 5.09vw, 3.75rem);
